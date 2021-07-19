@@ -1,3 +1,21 @@
+# 源码分析
+
+
+## 如何查看某个方法的源码
+
+
+参考[如何在V8源码里找到某个JS方法是如何实现的？ - 知乎](https://www.zhihu.com/question/59792274/answer/168987086)
+
+
+
+直接搜索`String.prototype.split`或者`Array.prototype.push`，基本都是c++获取tq完成的。
+
+当然最好是结合着规范[ECMAScript® 2022 Language Specification](https://tc39.es/ecma262/#sec-array.prototype.push)
+
+
+
+
+
 V8 JavaScript Engine
 =============
 
